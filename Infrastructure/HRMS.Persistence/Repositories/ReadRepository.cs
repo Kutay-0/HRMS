@@ -26,7 +26,7 @@ namespace HRMS.Persistence.Repositories
 
         public Task<T> GetByIdAsync(int id)
         {
-            return Table.FirstOrDefaultAsync(x => x.)
+            
         }
 
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
