@@ -7,11 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.18" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HRMS.Domain\HRMS.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\ApplicationUsers\Commands\" />
+    <Folder Include="Features\ApplicationUsers\Handlers\" />
+    <Folder Include="Features\ApplicationUsers\Queries\" />
+    <Folder Include="Features\Candidaties\Commands\" />
+    <Folder Include="Features\Candidaties\Handlers\" />
+    <Folder Include="Features\Candidaties\Queries\" />
+    <Folder Include="Features\Companies\Commands\" />
+    <Folder Include="Features\Companies\Handlers\" />
+    <Folder Include="Features\Companies\Queries\" />
   </ItemGroup>
 
 </Project>
