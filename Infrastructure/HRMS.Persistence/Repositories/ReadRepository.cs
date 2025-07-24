@@ -14,6 +14,11 @@ namespace HRMS.Persistence.Repositories
     {
         private readonly HRMSDbContext _context;
 
+        public ReadRepository(HRMSDbContext context)
+        {
+            _context = context;
+        }
+
         //Set<T>() Bize T türünden entity değer döndürmemizi sağlayan metot
         public DbSet<T> Table => _context.Set<T>();
 

@@ -13,3 +13,4 @@ C:\Users\sahin\source\repos\HRMS\Core\HRMS.Application\obj\Debug\net8.0\HRMS.App
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Application\obj\Debug\net8.0\refint\HRMS.Application.dll
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Application\obj\Debug\net8.0\HRMS.Application.pdb
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Application\obj\Debug\net8.0\ref\HRMS.Application.dll
+C:\Users\sahin\source\repos\HRMS\Core\HRMS.Application\obj\Debug\net8.0\HRMS.Application.sourcelink.json

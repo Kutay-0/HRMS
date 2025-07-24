@@ -37,27 +37,32 @@ namespace HRMS.Application.Features.JobPostings.Handlers
 
             if(!string.IsNullOrEmpty(request.TitleKeyword))
             {
-                query = query.Where(p => p.Title.Contains(request.TitleKeyword, StringComparison.OrdinalIgnoreCase));
+                query = query.Where(j => j.Title.ToLower().Contains(request.TitleKeyword.ToLower()));
+
             }
 
-            if(request.CreatedAfter.HasValue)
+            if (request.CreatedAfter.HasValue)
             {
-                query = query.Where(p => p.CreatedAt >= request.CreatedAfter.Value);
+                var utcDate = DateTime.SpecifyKind(request.CreatedAfter.Value, DateTimeKind.Utc);
+                query = query.Where(j => j.CreatedAt > utcDate);
             }
 
             if(request.CreatedBefore.HasValue)
             {
-                query = query.Where(p => p.CreatedAt <= request.CreatedBefore.Value);
+                var utcDate = DateTime.SpecifyKind(request.CreatedBefore.Value, DateTimeKind.Utc);
+                query = query.Where(j => j.CreatedAt < utcDate);
             }
 
             if(request.UpdatedAfter.HasValue)
             {
-                query = query.Where(p => p.UpdatedAt >= request.UpdatedAfter.Value);
+                var utcDate = DateTime.SpecifyKind(request.UpdatedAfter.Value, DateTimeKind.Utc);
+                query = query.Where(j => j.UpdatedAt > utcDate);
             }
 
             if(request.UpdatedBefore.HasValue)
             {
-                query = query.Where(p => p.UpdatedAt <= request.UpdatedBefore.Value);
+                var utcDate = DateTime.SpecifyKind(request.UpdatedBefore.Value, DateTimeKind.Utc);
+                query = query.Where(j => j.UpdatedAt < utcDate);
             }
 
             var result = await query

@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sahin\\source\\repos\\HRMS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\features\\jobpostings\\handlers\\getjobpostingbyfilterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\features\\jobpostings\\handlers\\getjobpostingbyfilterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\features\\jobpostings\\handlers\\getalljobpostingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\features\\jobpostings\\handlers\\getalljobpostingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|c:\\users\\sahin\\source\\repos\\hrms\\infrastructure\\hrms.persistence\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|solutionrelative:infrastructure\\hrms.persistence\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|c:\\users\\sahin\\source\\repos\\hrms\\infrastructure\\hrms.persistence\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|solutionrelative:infrastructure\\hrms.persistence\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|c:\\users\\sahin\\source\\repos\\hrms\\infrastructure\\hrms.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}|Infrastructure\\HRMS.Persistence\\HRMS.Persistence.csproj|solutionrelative:infrastructure\\hrms.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}|Presentation\\HRMS.API\\HRMS.API.csproj|c:\\users\\sahin\\source\\repos\\hrms\\presentation\\hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}|Presentation\\HRMS.API\\HRMS.API.csproj|solutionrelative:presentation\\hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\features\\jobpostings\\handlers\\createjobpostingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\features\\jobpostings\\handlers\\createjobpostingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\features\\jobpostings\\commands\\createjobpostingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\features\\jobpostings\\commands\\createjobpostingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|c:\\users\\sahin\\source\\repos\\hrms\\core\\hrms.application\\hrms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31BEAE4F-CD73-4639-9082-33935C12884B}|Core\\HRMS.Application\\HRMS.Application.csproj|solutionrelative:core\\hrms.application\\hrms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}|Presentation\\HRMS.API\\HRMS.API.csproj|c:\\users\\sahin\\source\\repos\\hrms\\presentation\\hrms.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}|Presentation\\HRMS.API\\HRMS.API.csproj|solutionrelative:presentation\\hrms.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllJobPostingQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetAllJobPostingQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetAllJobPostingQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetAllJobPostingQueryHandler.cs",
+              "RelativeToolTip": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetAllJobPostingQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:13:37.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetJobPostingByFilterQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetJobPostingByFilterQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetJobPostingByFilterQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetJobPostingByFilterQueryHandler.cs",
+              "RelativeToolTip": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\GetJobPostingByFilterQueryHandler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:13:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\Repositories\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\HRMS.Persistence\\Repositories\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\Repositories\\ReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\HRMS.Persistence\\Repositories\\ReadRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:05:08.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\Repositories\\WriteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\HRMS.Persistence\\Repositories\\WriteRepository.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\Repositories\\WriteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\HRMS.Persistence\\Repositories\\WriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:05:49.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\HRMS.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Infrastructure\\HRMS.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\HRMS.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:04:35.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateJobPostingCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\CreateJobPostingCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\CreateJobPostingCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\CreateJobPostingCommandHandler.cs",
+              "RelativeToolTip": "Core\\HRMS.Application\\Features\\JobPostings\\Handlers\\CreateJobPostingCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:58:07.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateJobPostingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Commands\\CreateJobPostingCommand.cs",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\Features\\JobPostings\\Commands\\CreateJobPostingCommand.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\Features\\JobPostings\\Commands\\CreateJobPostingCommand.cs",
+              "RelativeToolTip": "Core\\HRMS.Application\\Features\\JobPostings\\Commands\\CreateJobPostingCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:57:34.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\AssemblyReference.cs",
+              "RelativeToolTip": "Core\\HRMS.Application\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:55:37.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HRMS.Application",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\HRMS.Application.csproj",
+              "RelativeDocumentMoniker": "Core\\HRMS.Application\\HRMS.Application.csproj",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Core\\HRMS.Application\\HRMS.Application.csproj",
+              "RelativeToolTip": "Core\\HRMS.Application\\HRMS.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T12:50:58.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Presentation\\HRMS.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Presentation\\HRMS.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Presentation\\HRMS.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Presentation\\HRMS.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-24T12:37:26.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\source\\repos\\HRMS\\Presentation\\HRMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\HRMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\sahin\\source\\repos\\HRMS\\Presentation\\HRMS.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\HRMS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:35:59.752Z",
+              "EditorCaption": ""
             }
           ]
         }

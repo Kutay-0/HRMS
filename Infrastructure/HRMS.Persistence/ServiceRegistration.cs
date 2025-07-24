@@ -8,6 +8,8 @@ using HRMS.Persistence.Context;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using HRMS.Application.Repositories;
+using HRMS.Persistence.Repositories;
 
 namespace HRMS.Persistence
 {
@@ -17,6 +19,8 @@ namespace HRMS.Persistence
     {
         public static void AddPersistenceService(this IServiceCollection services)
         {
+            services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+            services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
 
             //Hangi sunucuya işlem yapacağımızı bildirdik.
             services.AddDbContext<HRMSDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));

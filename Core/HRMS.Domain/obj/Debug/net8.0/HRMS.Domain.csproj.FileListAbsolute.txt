@@ -10,3 +10,4 @@ C:\Users\sahin\source\repos\HRMS\Core\HRMS.Domain\obj\Debug\net8.0\HRMS.Domain.d
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Domain\obj\Debug\net8.0\refint\HRMS.Domain.dll
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Domain\obj\Debug\net8.0\HRMS.Domain.pdb
 C:\Users\sahin\source\repos\HRMS\Core\HRMS.Domain\obj\Debug\net8.0\ref\HRMS.Domain.dll
+C:\Users\sahin\source\repos\HRMS\Core\HRMS.Domain\obj\Debug\net8.0\HRMS.Domain.sourcelink.json
