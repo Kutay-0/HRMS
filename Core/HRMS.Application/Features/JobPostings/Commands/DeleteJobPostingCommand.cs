@@ -7,7 +7,7 @@ using MediatR;
 
 namespace HRMS.Application.Features.JobPostings.Commands
 {
-    public class DeleteJobPostingCommand : IRequest<bool>
+    public class DeleteJobPostingCommand : IRequest<int>
     {
         public int JobPostingId { get; set; }
     }

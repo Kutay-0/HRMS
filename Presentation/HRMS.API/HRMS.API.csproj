@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Core\HRMS.Application\HRMS.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj" />
   </ItemGroup>

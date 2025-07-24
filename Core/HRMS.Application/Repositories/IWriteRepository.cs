@@ -9,9 +9,10 @@ namespace HRMS.Application.Repositories
     public interface IWriteRepository<T> : IRepository<T> where T : class
     {
         Task<bool> AddAsync(T entity);
-        Task<bool> RemoveAsync(List<T> entity);
+        Task<bool> RemoveList(List<T> entity);
         Task<bool> Remove(int id);
-        Task<bool> UpdateAsync(int id);
+        Task<bool> UpdateAsync(T entity);
         Task<bool> UpdateAsync(List<T> entity);
+        Task<int> SaveChangesAsync();
     }
 }

@@ -12,7 +12,8 @@ namespace HRMS.Application.Features.JobPostings.Commands
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public int CompanyId { get; set; }
         public bool IsActive { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
     }
 }
