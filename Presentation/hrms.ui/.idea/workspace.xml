@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6b59c46-730e-41b8-8637-b1443959468e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/HRMS/CopilotIndices/0.2.1653.9816/SemanticSymbols.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/HRMS/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/FileContentIndex/0eed0021-fa9d-4e86-a98b-a4c2d142264d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/FileContentIndex/6da973e9-e738-4003-979e-eb1355331eb1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/FileContentIndex/bdc37172-74f3-46d1-8761-00c1da4f8ef0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/FileContentIndex/fd7e2c5c-faa4-4e50-b8a6-b0719861ecdd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/HRMS/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/HRMS/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/HRMS/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/HRMS/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/bin/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/HRMS.Application.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/ref/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/ref/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/refint/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Application/obj/Debug/net8.0/refint/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/bin/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/bin/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/bin/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/bin/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/HRMS.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/ref/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/ref/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/refint/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core/HRMS.Domain/obj/Debug/net8.0/refint/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/bin/Debug/net8.0/HRMS.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/HRMS.Infrastructure.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/ref/HRMS.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/ref/HRMS.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/refint/HRMS.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Infrastructure/obj/Debug/net8.0/refint/HRMS.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/Context/HRMSDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/Context/HRMSDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/Migrations/HRMSDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/Migrations/HRMSDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/bin/Debug/net8.0/HRMS.Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/HRMS.Persistence.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/ref/HRMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/ref/HRMS.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/refint/HRMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/HRMS.Persistence/obj/Debug/net8.0/refint/HRMS.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/HRMS.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/HRMS.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/bin/Debug/net8.0/HRMS.Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/ApiEndpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/ApiEndpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/HRMS.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/ref/HRMS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/ref/HRMS.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/refint/HRMS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/Debug/net8.0/refint/HRMS.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/HRMS.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/HRMS.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMS.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS.API/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="30XyODf43wgPTBXQOkgf0gUMMqB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/sahin/source/repos/HRMS/Presentation/hrms.ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b59c46-730e-41b8-8637-b1443959468e" name="Changes" comment="" />
+      <created>1753788178548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753788178548</updated>
+      <workItem from="1753788179539" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

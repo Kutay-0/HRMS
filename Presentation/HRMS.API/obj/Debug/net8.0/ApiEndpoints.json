@@ -99,6 +99,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HRMS.API.Controllers.IdentityTestController",
+    "Method": "CreateRoles",
+    "RelativePath": "api/IdentityTest/create-role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRMS.API.Controllers.JobPostingsController",
     "Method": "Create",
     "RelativePath": "api/JobPostings",

@@ -126,3 +126,7 @@ C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsof
 C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\obj\Debug\net8.0\HRMS.API.sourcelink.json
+C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sahin\source\repos\HRMS\Presentation\HRMS.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
