@@ -22,9 +22,6 @@
     <Folder Include="Features\Candidaties\Commands\" />
     <Folder Include="Features\Candidaties\Handlers\" />
     <Folder Include="Features\Candidaties\Queries\" />
-    <Folder Include="Features\Companies\Commands\" />
-    <Folder Include="Features\Companies\Handlers\" />
-    <Folder Include="Features\Companies\Queries\" />
   </ItemGroup>
 
 </Project>

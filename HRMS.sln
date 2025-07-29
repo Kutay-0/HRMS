@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2A0D270B-73F0-4FF1-B2C5-BE35B8AB7278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Domain", "Core\HRMS.Domain\HRMS.Domain.csproj", "{CDEE7C4A-0E3C-4E97-8AA5-320A70717103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.Domain", "Core\HRMS.Domain\HRMS.Domain.csproj", "{CDEE7C4A-0E3C-4E97-8AA5-320A70717103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Infrastructure", "Infrastructure\HRMS.Infrastructure\HRMS.Infrastructure.csproj", "{2EDB4D65-6DCC-4F87-80B5-34C7C636051E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.Infrastructure", "Infrastructure\HRMS.Infrastructure\HRMS.Infrastructure.csproj", "{2EDB4D65-6DCC-4F87-80B5-34C7C636051E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Application", "Core\HRMS.Application\HRMS.Application.csproj", "{31BEAE4F-CD73-4639-9082-33935C12884B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.Application", "Core\HRMS.Application\HRMS.Application.csproj", "{31BEAE4F-CD73-4639-9082-33935C12884B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Persistence", "Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj", "{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.Persistence", "Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj", "{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.API", "Presentation\HRMS.API\HRMS.API.csproj", "{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.API", "Presentation\HRMS.API\HRMS.API.csproj", "{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

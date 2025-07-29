@@ -15,3 +15,4 @@ C:\Users\sahin\source\repos\HRMS\Infrastructure\HRMS.Infrastructure\obj\Debug\ne
 C:\Users\sahin\source\repos\HRMS\Infrastructure\HRMS.Infrastructure\obj\Debug\net8.0\refint\HRMS.Infrastructure.dll
 C:\Users\sahin\source\repos\HRMS\Infrastructure\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.pdb
 C:\Users\sahin\source\repos\HRMS\Infrastructure\HRMS.Infrastructure\obj\Debug\net8.0\ref\HRMS.Infrastructure.dll
+C:\Users\sahin\source\repos\HRMS\Infrastructure\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.sourcelink.json

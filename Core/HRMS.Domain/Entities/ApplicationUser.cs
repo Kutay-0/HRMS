@@ -12,8 +12,8 @@ namespace HRMS.Domain.Entities
     public class ApplicationUser : IdentityUser
     {
         //Sütunları
-        public int CompanyId { get; set; }
-        public Company Company { get; set; }
+        public int? CompanyId { get; set; }
+        public Company? Company { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

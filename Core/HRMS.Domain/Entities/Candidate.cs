@@ -14,8 +14,6 @@ namespace HRMS.Domain.Entities
         public string LastName { get; set; }
         public string Email { get; set; }
         public string ResumePath { get; set; }
-        public string CreatedById { get; set; }
-        public ApplicationUser CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

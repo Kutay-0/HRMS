@@ -97,7 +97,6 @@ namespace HRMS.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("CreatedById")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Email")
@@ -205,9 +204,7 @@ namespace HRMS.Persistence.Migrations
                 {
                     b.HasOne("HRMS.Domain.Entities.ApplicationUser", "CreatedBy")
                         .WithMany()
-                        .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CreatedById");
 
                     b.Navigation("CreatedBy");
                 });

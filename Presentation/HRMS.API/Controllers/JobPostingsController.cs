@@ -39,12 +39,12 @@ namespace HRMS.API.Controllers
             return Ok();
         }
 
-        [HttpGet("{id:int}")]
-        public async Task<IActionResult> GetAll(int id)
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
             var query = new GetAllJobPostingQuery();
             var result = await Mediator.Send(query);
-            return Ok();
+            return Ok(result);
         }
 
         [HttpGet("filter")]
