@@ -1,5 +1,6 @@
 ﻿using HRMS.Application.Features.Companies.Commands;
 using HRMS.Application.Features.Companies.Queries;
+using HRMS.Application.Features.JobPostings.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -50,6 +51,13 @@ namespace HRMS.API.Controllers
         [HttpGet("filter")]
         public async Task<IActionResult> GetByFilter([FromQuery] GetCompanyByFilterQuery query)
         {
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
+        [HttpGet("{id}/jobpostings")]
+        public async Task<IActionResult> GetJobPostingsByCompanyId(int id)
+        {
+            var query = new GetJobPostingsByCompanyIdQuery { CompanyId = id };
             var result = await _mediator.Send(query);
             return Ok(result);
         }

@@ -17,5 +17,6 @@ namespace HRMS.Domain.Entities
         public DateTime UpdatedAt { get; set; }
         public ICollection<ApplicationUser> Employees { get; set; }
         public ICollection<JobPosting> JobPostings { get; set; }
+        public ICollection<Candidate> Candidates { get; set; }
     }
 }

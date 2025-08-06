@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace HRMS.Application.DTOs
 {
-    internal class CandidateDto
+    public class CandidateDto
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FullName { get; set; }
         public string Email { get; set; }
         public string ResumePath { get; set; }
         public DateTime CreatedAt { get; set; }
+        public string CompanyName { get; set; }
+        public string JobPostingTitle { get; set; }
     }
 }

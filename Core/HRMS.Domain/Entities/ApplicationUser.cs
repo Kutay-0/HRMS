@@ -14,6 +14,7 @@ namespace HRMS.Domain.Entities
         //Sütunları
         public int? CompanyId { get; set; }
         public Company? Company { get; set; }
+        public ICollection<JobPosting> JobPostings { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

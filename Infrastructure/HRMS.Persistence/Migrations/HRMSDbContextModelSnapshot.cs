@@ -22,6 +22,21 @@ namespace HRMS.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("CandidateJobPosting", b =>
+                {
+                    b.Property<int>("CandidatesId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("JobPostingsId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("CandidatesId", "JobPostingsId");
+
+                    b.HasIndex("JobPostingsId");
+
+                    b.ToTable("CandidateJobPosting");
+                });
+
             modelBuilder.Entity("HRMS.Domain.Entities.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -102,29 +117,25 @@ namespace HRMS.Persistence.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("CompanyId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("ResumePath")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("CompanyId");
 
                     b.ToTable("Candidates");
                 });
@@ -153,6 +164,42 @@ namespace HRMS.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
+                });
+
+            modelBuilder.Entity("HRMS.Domain.Entities.CompanyRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AboutCompany")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("EvidenceDocumentUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("RequestedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("RequestedById")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CompanyRequests");
                 });
 
             modelBuilder.Entity("HRMS.Domain.Entities.JobPosting", b =>
@@ -328,6 +375,21 @@ namespace HRMS.Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("CandidateJobPosting", b =>
+                {
+                    b.HasOne("HRMS.Domain.Entities.Candidate", null)
+                        .WithMany()
+                        .HasForeignKey("CandidatesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HRMS.Domain.Entities.JobPosting", null)
+                        .WithMany()
+                        .HasForeignKey("JobPostingsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("HRMS.Domain.Entities.ApplicationUser", b =>
                 {
                     b.HasOne("HRMS.Domain.Entities.Company", "Company")
@@ -337,19 +399,40 @@ namespace HRMS.Persistence.Migrations
                     b.Navigation("Company");
                 });
 
+            modelBuilder.Entity("HRMS.Domain.Entities.Candidate", b =>
+                {
+                    b.HasOne("HRMS.Domain.Entities.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HRMS.Domain.Entities.Company", "Company")
+                        .WithMany("Candidates")
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("Company");
+                });
+
             modelBuilder.Entity("HRMS.Domain.Entities.JobPosting", b =>
                 {
-                    b.HasOne("HRMS.Domain.Entities.Company", null)
+                    b.HasOne("HRMS.Domain.Entities.Company", "Company")
                         .WithMany("JobPostings")
                         .HasForeignKey("CompanyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("HRMS.Domain.Entities.ApplicationUser", "CreatedBy")
-                        .WithMany()
+                        .WithMany("JobPostings")
                         .HasForeignKey("CreatedById")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Company");
 
                     b.Navigation("CreatedBy");
                 });
@@ -405,8 +488,15 @@ namespace HRMS.Persistence.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("HRMS.Domain.Entities.ApplicationUser", b =>
+                {
+                    b.Navigation("JobPostings");
+                });
+
             modelBuilder.Entity("HRMS.Domain.Entities.Company", b =>
                 {
+                    b.Navigation("Candidates");
+
                     b.Navigation("Employees");
 
                     b.Navigation("JobPostings");

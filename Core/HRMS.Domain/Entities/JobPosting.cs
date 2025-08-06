@@ -11,6 +11,7 @@ namespace HRMS.Domain.Entities
     {
         public int Id { get; set; }
         public int CompanyId { get; set; }
+        public Company Company { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public bool IsActive { get; set; }
@@ -18,5 +19,6 @@ namespace HRMS.Domain.Entities
         public ApplicationUser CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public ICollection<Candidate> Candidates { get; set; }
     }
 }

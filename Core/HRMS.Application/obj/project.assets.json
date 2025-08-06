@@ -1050,6 +1050,7 @@
     "net8.0": [
       "HRMS.Domain >= 1.0.0",
       "MediatR >= 13.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.18",
       "Microsoft.EntityFrameworkCore >= 8.0.18"
     ]
   },
@@ -1110,6 +1111,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[13.0.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.18, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

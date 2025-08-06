@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "HRMS.API.Controllers.ApplicationUsersController",
+    "Method": "Register",
+    "RelativePath": "api/ApplicationUsers/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.ApplicationUsers.Commands.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRMS.API.Controllers.CompaniesController",
     "Method": "Create",
     "RelativePath": "api/Companies",

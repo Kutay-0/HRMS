@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HRMS.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6e9dcef5054a73fa69d18e0195bcc6260d08b61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02bacf333c329ddb701df1e46327171e3ed6bb9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HRMS.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HRMS.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

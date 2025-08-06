@@ -21,5 +21,6 @@ namespace HRMS.Persistence.Context
         public DbSet<Candidate> Candidates { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<JobPosting> JobPostings { get; set; }
+        public DbSet<CompanyRequest> CompanyRequests { get; set; }
     }
 }
