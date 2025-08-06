@@ -12,6 +12,7 @@ namespace HRMS.Domain.Entities
     public class ApplicationUser : IdentityUser
     {
         //Sütunları
+        public string FullName { get; set; }
         public int? CompanyId { get; set; }
         public Company? Company { get; set; }
         public ICollection<JobPosting> JobPostings { get; set; }

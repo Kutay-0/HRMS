@@ -1,6 +1,7 @@
 using System;
 using System.Text;
 using HRMS.Application;
+using HRMS.Application.Features.ApplicationUsers.Commands;
 using HRMS.Application.Features.JobPostings.Handlers;
 using HRMS.Domain.Entities;
 using HRMS.Persistence;
@@ -8,6 +9,7 @@ using HRMS.Persistence.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +40,7 @@ builder.Services.AddMediatR(cfg =>
 });
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
