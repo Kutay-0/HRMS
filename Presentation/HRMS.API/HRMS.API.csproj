@@ -20,4 +20,8 @@
     <ProjectReference Include="..\..\Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="HRMS\Application\" />
+  </ItemGroup>
+
 </Project>

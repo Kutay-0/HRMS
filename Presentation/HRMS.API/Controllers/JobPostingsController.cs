@@ -17,41 +17,77 @@ namespace HRMS.API.Controllers
             Mediator = mediator;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateJobPostingCommand command)
+        [HttpPost("create")]
+        public async Task<IActionResult> CreateJobPosting([FromBody] CreateJobPostingCommand command)
         {
-            var id = await Mediator.Send(command);
-            return Ok();
+            try
+            {
+                var id = await Mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpDelete("delete/{id:int}")]
+        public async Task<IActionResult> DeleteJobPosting(int id)
         {
-            var command = new DeleteJobPostingCommand { JobPostingId = id };
-            var deletedId = await Mediator.Send(command);
-            return Ok();
+            try
+            {
+                var command = new DeleteJobPostingCommand { JobPostingId = id };
+                var deletedId = await Mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateJobPostingCommand command)
+        [HttpPatch("update/{id:int}")]
+        public async Task<IActionResult> UpdateJobPosting(int id, [FromBody] UpdateJobPostingCommand command)
         {
-            var updatedId = await Mediator.Send(command);
-            return Ok();
+            try
+            {
+                command.JobPostingId = id;
+                var updatedId = await Mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpGet]
+        [HttpGet("select")]
         public async Task<IActionResult> GetAll()
         {
-            var query = new GetAllJobPostingQuery();
-            var result = await Mediator.Send(query);
-            return Ok(result);
+            try
+            {
+                var query = new GetAllJobPostingQuery();
+                var result = await Mediator.Send(query);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("filter")]
         public async Task<IActionResult> GetByFilter([FromQuery] GetJobPostingByFilterQuery query)
         {
-            var result = await Mediator.Send(query);
-            return Ok(result);
+            try
+            {
+                var result = await Mediator.Send(query);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

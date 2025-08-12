@@ -1,5 +1,73 @@
 [
   {
+    "ContainingType": "HRMS.API.Controllers.CandidateController",
+    "Method": "GetCandidate",
+    "RelativePath": "api/Candidate/CandidateByJobPostingId/{jobPostingId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobPostingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "createdAfter",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "createdBefore",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailKeyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.CandidateController",
+    "Method": "CreateCandidate",
+    "RelativePath": "api/Candidate/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.Candidaties.Commands.CreateCandidateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.CandidateController",
+    "Method": "DeleteCandidate",
+    "RelativePath": "api/Candidate/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.Candidaties.Commands.DeleteCandidateCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRMS.API.Controllers.CompaniesController",
     "Method": "Create",
     "RelativePath": "api/Companies",
@@ -115,6 +183,59 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HRMS.API.Controllers.HRManagersController",
+    "Method": "GetHRManagersByCompany",
+    "RelativePath": "api/HRManagers/company/{companyId}/hr-managers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companytId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "companyId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.HRManagersController",
+    "Method": "RegisterHRManager",
+    "RelativePath": "api/HRManagers/HRManager/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.ApplicationUsers.Commands.CreateHRManagerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.HRManagersController",
+    "Method": "UpdateHRManager",
+    "RelativePath": "api/HRManagers/HRManager/Update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.ApplicationUsers.Commands.UpdateHRManagerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRMS.API.Controllers.IdentityTestController",
     "Method": "CreateRoles",
     "RelativePath": "api/IdentityTest/create-role",
@@ -126,8 +247,8 @@
   },
   {
     "ContainingType": "HRMS.API.Controllers.JobPostingsController",
-    "Method": "Create",
-    "RelativePath": "api/JobPostings",
+    "Method": "CreateJobPosting",
+    "RelativePath": "api/JobPostings/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -142,34 +263,8 @@
   },
   {
     "ContainingType": "HRMS.API.Controllers.JobPostingsController",
-    "Method": "Update",
-    "RelativePath": "api/JobPostings",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "HRMS.Application.Features.JobPostings.Commands.UpdateJobPostingCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRMS.API.Controllers.JobPostingsController",
-    "Method": "GetAll",
-    "RelativePath": "api/JobPostings",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRMS.API.Controllers.JobPostingsController",
-    "Method": "Delete",
-    "RelativePath": "api/JobPostings/{id}",
+    "Method": "DeleteJobPosting",
+    "RelativePath": "api/JobPostings/delete/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -229,9 +324,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HRMS.API.Controllers.JobPostingsController",
+    "Method": "GetAll",
+    "RelativePath": "api/JobPostings/select",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.JobPostingsController",
+    "Method": "UpdateJobPosting",
+    "RelativePath": "api/JobPostings/update/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.JobPostings.Commands.UpdateJobPostingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.UsersController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Users/user/profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRMS.API.Controllers.UsersController",
     "Method": "RegisterUser",
-    "RelativePath": "api/Users/register",
+    "RelativePath": "api/Users/user/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -239,6 +381,22 @@
       {
         "Name": "command",
         "Type": "HRMS.Application.Features.ApplicationUsers.Commands.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRMS.API.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/user/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "HRMS.Application.Features.ApplicationUsers.Commands.UpdateUserCommand",
         "IsRequired": true
       }
     ],

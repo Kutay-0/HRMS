@@ -18,48 +18,91 @@ namespace HRMS.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
+        [HttpPost("companies/create")]
         public async Task<IActionResult> Create([FromBody] CreateCompanyCommand command)
         {
-            var id = await _mediator.Send(command);
-            return Ok();
+            try
+            {
+                var id = await _mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpPut]
+        [HttpPut("companies/create")]
         public async Task<IActionResult> Update([FromBody] UpdateCompanyCommand command)
         {
-            var updatedId = await _mediator.Send(command);
-            return Ok();
+            try
+            {
+                var updatedId = await _mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpDelete("{id:int}")]
+        [HttpDelete("company/delete/{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var command = new DeleteCompanyCommand { Id = id };
-            var deletedId = await _mediator.Send(command);
-            return Ok();
+            try
+            {
+                var command = new DeleteCompanyCommand { Id = id };
+                var deletedId = await _mediator.Send(command);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpGet]
+        [HttpGet("companies")]
         public async Task<IActionResult> GetAll()
         {
-            var query = new GetAllCompaniesQuery();
-            var result = await _mediator.Send(query);
-            return Ok(result);
+            try
+            {
+                var query = new GetAllCompaniesQuery();
+                var result = await _mediator.Send(query);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("filter")]
         public async Task<IActionResult> GetByFilter([FromQuery] GetCompanyByFilterQuery query)
         {
-            var result = await _mediator.Send(query);
-            return Ok(result);
+            try
+            {
+                var result = await _mediator.Send(query);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
+
         [HttpGet("{id}/jobpostings")]
         public async Task<IActionResult> GetJobPostingsByCompanyId(int id)
         {
-            var query = new GetJobPostingsByCompanyIdQuery { CompanyId = id };
-            var result = await _mediator.Send(query);
-            return Ok(result);
+            try
+            {
+                var query = new GetJobPostingsByCompanyIdQuery { CompanyId = id };
+                var result = await _mediator.Send(query);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

@@ -22,26 +22,21 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
 
         public async Task<List<HRManagerDto>> Handle(GetHRManagerByCompanyIdQuery request, CancellationToken cancellationToken)
         {
-            var users = _userManager.Users.Where(u => u.CompanyId == request.CompanyId).ToList();
+            var hrManagers = await _userManager.GetUsersInRoleAsync("HRManager");
 
-            var hrManagers = new List<HRManagerDto>();
+            var  filtered = hrManagers.Where(user => user.CompanyId == request.CompanyId).OrderBy(user => user.FullName).ToList();
 
-            foreach (var user in users)
+            var list = filtered.Select(user => new HRManagerDto
             {
-                var roles = await _userManager.GetRolesAsync(user);
-                if (roles.Contains("HRManager"))
-                {
-                    hrManagers.Add(new HRManagerDto
-                    {
-                        UserName = user.UserName,
-                        Email = user.Email,
-                        PhoneNumber = user.PhoneNumber,
-                        Role = "HRManager",
-                        CreatedAt = user.CreatedAt
-                    });
-                }
-            }
-            return hrManagers;
+                Id = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                Role = "HRManager",
+                CreatedAt = user.CreatedAt
+            }).ToList();
+
+            return list;
         }
     }
 }

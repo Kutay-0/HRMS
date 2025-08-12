@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using HRMS.Application.Features.ApplicationUsers.Commands;
 
-namespace HRMS.Application.Validators
+namespace HRMS.Application.Features.ApplicationUsers.Validators
 {
-    public static class UserValidator
+    public static class CreateUserValidator
     {
         public static string Validate(CreateUserCommand command)
         {
@@ -29,7 +29,7 @@ namespace HRMS.Application.Validators
                 }
             }
 
-            if(string.IsNullOrWhiteSpace(command.Email))
+            if (string.IsNullOrWhiteSpace(command.Email))
             {
                 errors.Add("Email alanı boş bırakılamaz.");
             }
@@ -50,7 +50,7 @@ namespace HRMS.Application.Validators
                 errors.Add("Telefon numarası sadece rakamlardan oluşmalı ve 10-15 karakter uzunluğunda olmalıdır.");
             }
 
-            if(string.IsNullOrWhiteSpace(command.Password))
+            if (string.IsNullOrWhiteSpace(command.Password))
             {
                 errors.Add("Şifre alanı boş bırakılamaz.");
             }
@@ -60,7 +60,7 @@ namespace HRMS.Application.Validators
                 {
                     errors.Add("Parola 8-16 karakter uzunluğunda olmalıdır.");
                 }
-                if(!command.Password.Any(char.IsUpper) || !command.Password.Any(char.IsLower) || !command.Password.Any(char.IsDigit))
+                if (!command.Password.Any(char.IsUpper) || !command.Password.Any(char.IsLower) || !command.Password.Any(char.IsDigit))
                 {
                     errors.Add("Parola en az bir büyük harf, bir küçük harf ve bir rakam içermelidir.");
                 }

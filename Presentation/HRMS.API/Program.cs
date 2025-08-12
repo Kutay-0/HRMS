@@ -36,7 +36,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddPersistenceService();
 builder.Services.AddMediatR(cfg =>
 {
-    cfg.RegisterServicesFromAssembly(typeof(CreateJobPostingCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(HRMS.Application.AssemblyReference).Assembly);
 });
 
 builder.Services.AddControllers();

@@ -17,8 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Candidaties\Handlers\" />
-    <Folder Include="Features\Candidaties\Queries\" />
     <Folder Include="Features\CompanyRequests\Commands\" />
     <Folder Include="Features\CompanyRequests\Handlers\" />
     <Folder Include="Features\CompanyRequests\Queries\" />

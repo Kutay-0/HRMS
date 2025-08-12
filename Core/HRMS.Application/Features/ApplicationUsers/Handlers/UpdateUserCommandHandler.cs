@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HRMS.Application.Features.ApplicationUsers.Commands;
+using HRMS.Application.Features.ApplicationUsers.Validators;
 using HRMS.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace HRMS.Application.Features.ApplicationUsers.Handlers
 {
@@ -21,19 +23,50 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
 
         public async Task<string> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
         {
+            var validationMessage = UpdateUserValidator.Validate(request);
+            
+            if (!string.IsNullOrWhiteSpace(validationMessage))
+                throw new Exception(validationMessage);
+
             var user = await _userManager.FindByIdAsync(request.Id);
-            if (user == null)
+            if(user == null)
             {
                 throw new Exception("Kullanıcı bulunamadı! Lütfen geçerli bir kullanıcı ID'si giriniz.");
             }
 
-            user.UserName = request.FullName;
-            user.Email = request.Email;
-            user.PhoneNumber = request.PhoneNumber;
+            if (!string.IsNullOrWhiteSpace(request.FullName))
+            {
+                user.FullName = request.FullName.Trim();
+            }
 
-            var result = await _userManager.UpdateAsync(user);
+            if (!string.IsNullOrWhiteSpace(request.Email))
+            {
+                user.Email = request.Email.Trim();
+                user.UserName = request.Email.Trim();
+            }
 
-            return "Kullanıcı başarıyla güncellendi";
+            if (!string.IsNullOrWhiteSpace(request.PhoneNumber))
+            {
+                user.PhoneNumber = request.PhoneNumber.Trim();
+            }
+             
+            if (!string.IsNullOrWhiteSpace(request.NewPassword))
+            {
+                var passwordChangeResult = await _userManager.ChangePasswordAsync(user, request.Password, request.NewPassword);
+                if(!passwordChangeResult.Succeeded)
+                {
+                    throw new Exception("Parola değiştirilemedi.");
+                }
+            }
+
+            var updateResult = await _userManager.UpdateAsync(user);
+            if (!updateResult.Succeeded)
+            {
+                var errors = string.Join(", ", updateResult.Errors.Select(e => e.Description));
+                throw new Exception($"Kullanıcı güncellenirken hata oluştu: {errors}");
+            }
+
+            return user.Id;
         }
     }
 }

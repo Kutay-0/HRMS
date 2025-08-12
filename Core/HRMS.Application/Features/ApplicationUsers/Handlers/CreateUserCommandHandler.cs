@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HRMS.Application.DTOs;
 using HRMS.Application.Features.ApplicationUsers.Commands;
-using HRMS.Application.Repositories;
-using HRMS.Application.Validators;
+using HRMS.Application.Features.ApplicationUsers.Validators;
 using HRMS.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -31,7 +30,7 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
                 throw new Exception("Bu e-posta adresiyle zaten bir hesap oluşturulmuş!");
             }
 
-            var validationMessage = UserValidator.Validate(request);
+            var validationMessage = CreateUserValidator.Validate(request);
             if (!string.IsNullOrEmpty(validationMessage))
             {
                 throw new Exception(validationMessage);
@@ -40,14 +39,25 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
             var user = new ApplicationUser
             {
                 FullName = request.FullName,
+                UserName = request.Email,
                 Email = request.Email,
                 PhoneNumber = request.PhoneNumber,
+                CompanyId = null,
                 CreatedAt = DateTime.UtcNow
             };
 
             var result = await _userManager.CreateAsync(user, request.Password);
+            if (!result.Succeeded)
+            {
+                throw new Exception("Kullanıcıyı oluştururken bir hata meydana geldi.");
+            }
+            
+            var addRole = await _userManager.AddToRoleAsync(user, "User");
+            if (!addRole.Succeeded)
+            {
+                throw new Exception("Kullanıcıya rol eklenirken bir hata meydana geldi.");
+            }
 
-            await _userManager.AddToRoleAsync(user, "User");
             return user.Id;
         }
     }
