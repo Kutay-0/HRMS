@@ -29,9 +29,14 @@ namespace HRMS.Persistence.Repositories
             return Table;
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync(int id)
         {
             return await Table.FirstOrDefaultAsync(x => EF.Property<int>(x, "Id") == id);
+        }
+
+        public async Task<T?> GetByIdAsync(string id)
+        {
+            return await Table.FirstOrDefaultAsync(x => EF.Property<string>(x, "Id") == id);
         }
 
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)

@@ -9,7 +9,7 @@ namespace HRMS.Application.Features.Candidaties.Commands
 {
     public class DeleteCandidateCommand : IRequest<string>
     {
-        public int Id { get; set; }
+        public int JobPostingId { get; set; }
         public string ApplicationUserId { get; set; }
         public int CompanyId { get; set; }
     }

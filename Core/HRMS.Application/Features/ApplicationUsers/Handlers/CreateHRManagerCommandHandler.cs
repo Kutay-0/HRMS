@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HRMS.Application.Abstractions;
 using HRMS.Application.Features.ApplicationUsers.Commands;
 using HRMS.Application.Features.ApplicationUsers.Validators;
 using HRMS.Application.Repositories;
@@ -22,6 +23,12 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
         }
         public async Task<string> Handle(CreateHRManagerCommand command, CancellationToken cancellationToken)
         {
+
+            if (command.CompanyId == null)
+            {
+                throw new Exception("Şirket ID'si boş olamaz. Lütfen geçerli bir şirket ID'si girin.");
+            }
+
             var existUser = await _userManager.FindByEmailAsync(command.Email);
             if(existUser != null)
             {

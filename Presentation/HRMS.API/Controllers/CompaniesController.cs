@@ -32,7 +32,7 @@ namespace HRMS.API.Controllers
             }
         }
 
-        [HttpPut("companies/create")]
+        [HttpPatch("companies/update")]
         public async Task<IActionResult> Update([FromBody] UpdateCompanyCommand command)
         {
             try

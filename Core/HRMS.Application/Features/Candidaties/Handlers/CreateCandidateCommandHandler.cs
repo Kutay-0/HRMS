@@ -29,7 +29,7 @@ namespace HRMS.Application.Features.Candidaties.Handlers
 
         public async Task<string> Handle(CreateCandidateCommand command, CancellationToken cancellationToken)
         {
-            var alreadyApplied = await _candidateReadRepository.GetSingleAsync(c => c.ApplicationUserId == command.Id && c.CompanyId == command.CompanyId);
+            var alreadyApplied = await _candidateReadRepository.GetSingleAsync(c => c.ApplicationUserId == command.UserId && c.JobPostingId == command.JobPostingId);
             if(alreadyApplied != null)
             {
                 throw new Exception("Bu ilana daha önce başvurdunuz.");
@@ -43,8 +43,8 @@ namespace HRMS.Application.Features.Candidaties.Handlers
 
             var candidate = new Candidate
             {
-                ApplicationUserId = command.Id,
-                CompanyId = command.CompanyId,
+                ApplicationUserId = command.UserId,
+                JobPostingId = command.JobPostingId,
                 ResumePath = command.ResumePath,
                 CreatedAt = DateTime.UtcNow
             };

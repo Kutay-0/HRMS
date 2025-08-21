@@ -14,11 +14,12 @@ namespace HRMS.Domain.Entities
         public Company Company { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public string EmploymentType { get; set; }
         public bool IsActive { get; set; }
         public string CreatedById { get; set; }
         public ApplicationUser CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public ICollection<Candidate> Candidates { get; set; }
     }
 }

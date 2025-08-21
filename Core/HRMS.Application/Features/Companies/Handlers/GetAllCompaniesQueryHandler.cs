@@ -26,7 +26,7 @@ namespace HRMS.Application.Features.Companies.Handlers
             var companies = await _companyReadRepository.GetAll().Select(c => new CompanyDto
                 {
                     Id = c.Id,
-                    Name = c.Name,
+                    CompanyName = c.CompanyName,
                     Description = c.Description,
                     CreatedAt = c.CreatedAt,
                     UpdatedAt = c.UpdatedAt

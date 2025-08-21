@@ -9,8 +9,8 @@ namespace HRMS.Application.Features.Candidaties.Commands
 {
     public class CreateCandidateCommand : IRequest<string>
     {
-        public string Id { get; set; }
+        public string UserId { get; set; }
+        public int JobPostingId { get; set; }
         public string ResumePath { get; set; }
-        public int CompanyId { get; set; }
     }
 }

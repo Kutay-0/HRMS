@@ -37,7 +37,7 @@ namespace HRMS.Application.Features.JobPostings.Handlers
                 IsActive = p.IsActive,
                 CreatedAt = p.CreatedAt,
                 UpdatedAt = p.UpdatedAt,
-                CompanyName = company.Name,
+                CompanyName = company.CompanyName,
             }).ToList();
 
             return postings;

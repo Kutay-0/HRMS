@@ -12,11 +12,15 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.8" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.13.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\HRMS.Application\HRMS.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\HRMS.Infrastructure\HRMS.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj" />
   </ItemGroup>
 

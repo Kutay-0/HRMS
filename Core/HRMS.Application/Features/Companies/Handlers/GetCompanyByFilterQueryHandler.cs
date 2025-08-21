@@ -27,7 +27,7 @@ namespace HRMS.Application.Features.Companies.Handlers
 
             if (!string.IsNullOrEmpty(request.NameKeyword))
             {
-                query = query.Where(c => c.Name.ToLower().Contains(request.NameKeyword.ToLower()));
+                query = query.Where(c => c.CompanyName.ToLower().Contains(request.NameKeyword.ToLower()));
             }
 
             if (request.CreatedAfter.HasValue)
@@ -58,7 +58,7 @@ namespace HRMS.Application.Features.Companies.Handlers
                 .Select(c => new CompanyDto
                 {
                     Id = c.Id,
-                    Name = c.Name,
+                    CompanyName = c.CompanyName,
                     CreatedAt = c.CreatedAt,
                     UpdatedAt = c.UpdatedAt
                 })

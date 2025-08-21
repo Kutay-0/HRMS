@@ -15,7 +15,6 @@ namespace HRMS.Domain.Entities
         public string FullName { get; set; }
         public int? CompanyId { get; set; }
         public Company? Company { get; set; }
-        public ICollection<JobPosting> JobPostings { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

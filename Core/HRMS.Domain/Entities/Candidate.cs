@@ -11,10 +11,10 @@ namespace HRMS.Domain.Entities
         public int Id { get; set; }
         public string ApplicationUserId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
-        public int CompanyId { get; set; }
-        public Company Company { get; set; }
+        public int JobPostingId { get; set; }
+        public JobPosting JobPosting { get; set; }
+        public string ApplicationStatus { get; set; }
         public string ResumePath { get; set; }
         public DateTime CreatedAt { get; set; }
-        public ICollection<JobPosting> JobPostings { get; set; }
     }
 }

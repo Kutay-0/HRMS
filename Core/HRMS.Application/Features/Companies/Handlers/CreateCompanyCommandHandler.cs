@@ -22,14 +22,14 @@ namespace HRMS.Application.Features.Companies.Handlers
         }
         public async Task<int> Handle(CreateCompanyCommand request, CancellationToken cancellationToken)
         {
-            var exists = await _companyReadRepository.GetSingleAsync(c => c.Name.ToLower() == request.Name.ToLower());
+            var exists = await _companyReadRepository.GetSingleAsync(c => c.CompanyName.ToLower() == request.CompanyName.ToLower());
 
             if (exists != null)
                 throw new Exception("Bu şirket zaten kayıtlı.");
 
             var company = new Company
             {
-                Name = request.Name,
+                CompanyName = request.CompanyName,
                 Description = request.Description,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow

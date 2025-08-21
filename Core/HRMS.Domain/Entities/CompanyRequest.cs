@@ -13,6 +13,7 @@ namespace HRMS.Domain.Entities
         public string AboutCompany { get; set; }
         public string EvidenceDocumentUrl { get; set; }
         public string RequestedById { get; set; }
+        public ApplicationUser RequestedBy { get; set; }
         public string Status { get; set; } = "Beklemede";
         public DateTime RequestedAt { get; set; }
     }

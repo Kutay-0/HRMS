@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using HRMS.Application.Repositories;
 using HRMS.Persistence.Repositories;
+using HRMS.Application.Abstractions.Token;
+using Microsoft.IdentityModel.Tokens;
 
 namespace HRMS.Persistence
 {

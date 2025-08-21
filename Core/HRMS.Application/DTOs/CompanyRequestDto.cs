@@ -12,7 +12,7 @@ namespace HRMS.Application.DTOs
         public string AboutCompany { get; set; } = string.Empty;
         public string EvidenceDocumentUrl { get; set; } = string.Empty;
         public string RequestedById { get; set; } = string.Empty;
-        public string Status { get; set; } = "Beklemede";
+        public string Status { get; set; }
         public DateTime RequestedAt { get; set; }
     }
 }

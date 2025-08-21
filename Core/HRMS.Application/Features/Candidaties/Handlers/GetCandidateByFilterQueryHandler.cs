@@ -23,7 +23,7 @@ namespace HRMS.Application.Features.Candidaties.Handlers
 
         public async Task<List<CandidateDto>> Handle(GetCandidateByFilterQuery request, CancellationToken cancellationToken)
         {
-            var query = _candidateReadRepository.GetAll().Include(c => c.ApplicationUser).Where(c => c.JobPostings.Any(j => j.Id == request.JobPostingId));
+            var query = _candidateReadRepository.GetAll().Include(c => c.ApplicationUser).Where(c => c.JobPostingId == request.JobPostingId);
 
             if (request.CreatedAfter.HasValue)
             {

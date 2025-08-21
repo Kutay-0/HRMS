@@ -18,6 +18,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.Persistence", "Infrastructure\HRMS.Persistence\HRMS.Persistence.csproj", "{67ED041C-AB9D-41F9-8A4D-EE4DC0527E0C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRMS.API", "Presentation\HRMS.API\HRMS.API.csproj", "{6B792D2F-9C30-4309-B9FD-2A56F77B21AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EDB4D65-6DCC-4F87-80B5-34C7C636051E} = {2EDB4D65-6DCC-4F87-80B5-34C7C636051E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
