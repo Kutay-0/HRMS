@@ -23,12 +23,6 @@ namespace HRMS.Application.Features.ApplicationUsers.Handlers
         }
         public async Task<string> Handle(CreateHRManagerCommand command, CancellationToken cancellationToken)
         {
-
-            if (command.CompanyId == null)
-            {
-                throw new Exception("Şirket ID'si boş olamaz. Lütfen geçerli bir şirket ID'si girin.");
-            }
-
             var existUser = await _userManager.FindByEmailAsync(command.Email);
             if(existUser != null)
             {

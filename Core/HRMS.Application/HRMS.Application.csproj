@@ -18,8 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CompanyRequests\Commands\" />
-    <Folder Include="Features\CompanyRequests\Handlers\" />
     <Folder Include="Features\CompanyRequests\Queries\" />
   </ItemGroup>
 

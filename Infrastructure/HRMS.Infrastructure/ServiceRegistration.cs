@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HRMS.Application.Abstractions.Token;
+using HRMS.Application.Abstractions.User;
 using HRMS.Infrastructure.Services.Token;
+using HRMS.Infrastructure.Services.User;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Identity.Abstractions;
@@ -16,6 +18,7 @@ namespace HRMS.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<ITokenHandler, TokenHandler>();
+            services.AddScoped<ICurrentUserService, CurrentUserService>();
             return services;
         }
     }

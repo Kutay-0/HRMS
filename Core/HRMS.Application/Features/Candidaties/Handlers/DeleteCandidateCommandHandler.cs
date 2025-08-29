@@ -23,7 +23,7 @@ namespace HRMS.Application.Features.Candidaties.Handlers
 
         public async Task<string> Handle(DeleteCandidateCommand command, CancellationToken cancellationToken)
         {
-            var candidate = _candidateReadRepository.GetByIdAsync(command.JobPostingId).Result;
+            var candidate = _candidateReadRepository.GetSingleAsync(c => c.ApplicationUserId == command.ApplicationUserId).Result;
             if (candidate == null)
             {
                 throw new Exception("Aday bulunamadı.");

@@ -90,19 +90,5 @@ namespace HRMS.API.Controllers
             }
         }
 
-        [HttpGet("{id}/jobpostings")]
-        public async Task<IActionResult> GetJobPostingsByCompanyId(int id)
-        {
-            try
-            {
-                var query = new GetJobPostingsByCompanyIdQuery { CompanyId = id };
-                var result = await _mediator.Send(query);
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
     }
 }

@@ -89,5 +89,14 @@ namespace HRMS.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("~/api/companies/{companyId:int}/job-postings")]
+        public async Task<IActionResult> GetByCompany([FromRoute] int companyId,[FromQuery] GetJobPostingByFilterQuery query)
+        {
+            query.CompanyId = companyId;
+            if (query.IsActive is null) query.IsActive = true;
+            var result = await Mediator.Send(query);
+            return Ok(result);
+        }
     }
 }

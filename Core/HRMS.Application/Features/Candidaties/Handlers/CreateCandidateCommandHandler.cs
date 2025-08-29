@@ -45,6 +45,7 @@ namespace HRMS.Application.Features.Candidaties.Handlers
             {
                 ApplicationUserId = command.UserId,
                 JobPostingId = command.JobPostingId,
+                ApplicationStatus = "Başvuru Alındı",
                 ResumePath = command.ResumePath,
                 CreatedAt = DateTime.UtcNow
             };
